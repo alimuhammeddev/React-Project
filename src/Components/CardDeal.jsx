@@ -5,7 +5,7 @@ import styles, {layout} from "../style";
 import Button from "./Button";
 
 const CardDeal = () => (
-    <section className={`${layout.section} ${styles.paddingX}`}>
+    <section className={`${layout.section} lg:px-[80px]`}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>Find a better card deal <br className="sm:block hidden"/> in few easy steps.</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga in consequatur omnis dicta asperiores tempora praesentium aliquam tempore, et nemo.</p>

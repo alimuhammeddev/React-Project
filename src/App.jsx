@@ -4,7 +4,7 @@ const App = () =>
   (
     <div className='bg-primary w-full overflow-hidden text-white'>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth} px-10`}>
+        <div className={`${styles.boxWidth} lg:px-10`}>
           <Navbar/>
         </div>
       </div>
